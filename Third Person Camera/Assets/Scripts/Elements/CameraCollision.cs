@@ -1,4 +1,4 @@
-﻿using Extentions;
+﻿using Extensions;
 using UnityEngine;
 using Axes = Metadatas.Input.Axes;
 using LevelObjectsTags = Metadatas.Tags.LevelObjects;
@@ -6,7 +6,7 @@ using LevelObjectsTags = Metadatas.Tags.LevelObjects;
 namespace Elements
 {
 
-    public class CameraCollition : MonoBehaviour
+    public class CameraCollision : MonoBehaviour
     {
         [Header("Parameters")]
         [SerializeField] private float minDistance = 1.6f;

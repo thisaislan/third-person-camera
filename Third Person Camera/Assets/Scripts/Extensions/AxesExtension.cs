@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using Axes = Metadatas.Input.Axes;
 
-namespace Extentions
+namespace Extensions
 {
 
-    public static class AxesExtention
+    public static class AxesExtension
     {
         public static float GetAxis(this Axes axes) => Input.GetAxis(axes.ToString());
 

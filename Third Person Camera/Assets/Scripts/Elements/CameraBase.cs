@@ -1,4 +1,4 @@
-﻿using Extentions;
+﻿using Extensions;
 using UnityEngine;
 using Axes = Metadatas.Input.Axes;
 
