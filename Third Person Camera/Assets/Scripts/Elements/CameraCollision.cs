@@ -96,8 +96,8 @@ namespace Elements
 
         private void SetDistanceBySphereCastHit(RaycastHit hit)
         {
-            var doubleSphereRadius = sphereRadius * 2f;
-            SetDistance(hit.distance + doubleSphereRadius);
+            var sphereDiameter = sphereRadius * 2f;
+            SetDistance(hit.distance + sphereDiameter);
         }
 
         private void SetLocalPositionSmoothlyByDistance()
